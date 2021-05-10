@@ -11,6 +11,22 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'lifeboats',
+    loadChildren: () => import('./lifeboats/lifeboats.module').then( m => m.LifeboatsPageModule)
+  },
+  {
+    path: 'coastguard',
+    loadChildren: () => import('./coastguard/coastguard.module').then( m => m.CoastguardPageModule)
+  },
+  {
+    path: 'civildefence',
+    loadChildren: () => import('./civildefence/civildefence.module').then( m => m.CivildefencePageModule)
+  },
+  {
+    path: 'garda',
+    loadChildren: () => import('./garda/garda.module').then( m => m.GardaPageModule)
+  },
 ];
 
 @NgModule({
