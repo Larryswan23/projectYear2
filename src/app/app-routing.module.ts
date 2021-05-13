@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'garda',
     loadChildren: () => import('./garda/garda.module').then( m => m.GardaPageModule)
   },
+  {
+    path: 'gps',
+    loadChildren: () => import('./gps/gps.module').then( m => m.GpsPageModule)
+  },
 ];
 
 @NgModule({

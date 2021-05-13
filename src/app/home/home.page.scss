@@ -1,7 +1,7 @@
 #container {
   text-align: center;
 
-  position: absolute;
+  position: center;
   left: 0;
   right: 0;
   top: 50%;
@@ -9,15 +9,21 @@
 }
 
 #container strong {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 26px;
+  
 }
-
+.list {
+  width: 30%;
+  min-width: 270px;
+  font-size: 25px;
+  
+}
 #container p {
   font-size: 16px;
   line-height: 22px;
-
-  color: #8c8c8c;
+  
+  color: #aa0505;
 
   margin: 0;
 }

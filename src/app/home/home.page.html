@@ -9,10 +9,12 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Emergency Services</ion-title>
     </ion-toolbar>
+    
   </ion-header>
-  <ul>
+  <h1>Here is a link to an brief description of the Emergency Services in the Galway area   </h1>
+  <ul class="list" >
     <li [routerLink]="['/lifeboats']" routerDirection="forward">RNLI</li>
 
     <li [routerLink]="['/coastguard']" routerDirection="forward">CoastGuard</li>
@@ -20,6 +22,8 @@
     <li [routerLink]="['/civildefence']" routerDirection="forward">Civil Defence</li>
     
     <li [routerLink]="['/garda']" routerDirection="forward">Garda Siochana</li>
+    
+    <li [routerLink]="['/gps']" routerDirection="forward">Gps</li>
   </ul>
   
 </ion-content>
