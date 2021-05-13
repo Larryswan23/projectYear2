@@ -12,7 +12,6 @@ long:any;
 
   ngOnInit() {  
   }
-  
   Gps(){
     this.geolocation.getCurrentPosition().then((resp) => {
       this.lat=resp.coords.latitude
@@ -21,4 +20,5 @@ long:any;
       console.log('Error getting location', error);
     });
   }
+  
 }
